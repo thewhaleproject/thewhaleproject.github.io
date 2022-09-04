@@ -13,10 +13,21 @@ $("#music-intro-js").load("assets/snips/music-intro.html");
 
 $("#team-list-js").load("assets/snips/team-list.html");
 
+// $('#navicon').on('click', function () {
+// 		$(".mobile-navigation").toggleClass("visible");
+// 	});
 
+// $("#navicon").click(function(){
+//   $(".mobile-navigation").toggleClass("visible");
+// });
 
-// (
-// function load_home() {
+function seeit() {
+    $(".mobile-navigation").toggleClass("visible");
+  // document.getElementById(".mobile-navigation").toggleClass("visible");
+}
+
+  // document.getElementById("mobile-navigation").style.z-index = "9999!important" ;
+    // function load_home() {
     // document.getElementById("social").innerHTML='<object type="text/html" data="/assets/snips/social.html" ></object>';
 // }
 // )

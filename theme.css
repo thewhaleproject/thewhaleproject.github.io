@@ -187,6 +187,7 @@ nav ul li a{color:#fdfdfd;letter-spacing:1px;font-size:14px}
 nav ul li a:hover{color:#fdfdfd}
 @media (max-width:991px) {
 nav ul{display:none}
+/* nav ul{margin: -19px 0} */
 }
 .dropdown-icon{margin-left:3px}
 ul.dropdown-menu{-webkit-box-shadow:none!important;-moz-box-shadow:none!important;box-shadow:none!important;margin-top:24px;border:0;padding-top:10px;padding-bottom:10px;-webkit-border-radius:1px!important;border-radius:1px!important;background-clip:padding-box!important;-moz-transition:.2s;-o-transition:.2s;-webkit-transition:.2s;transition:.2s;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out}

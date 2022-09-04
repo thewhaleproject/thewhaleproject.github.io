@@ -17,14 +17,14 @@ jQuery(document).ready(function( $ ) {
 	// Loader
 	//===================
 
-	// $(window).load(function(){
-	// 	setTimeout(function(){
-	// 		$('.loading').addClass("hidden");
-	// 		$('.loader-logo').addClass("slideOutUp");
-	// 		$('.loader').addClass("slideOutUp");
-	// 		$('body').addClass("body-animated");
-	// 	}, 900);
-	// });
+	$(window).load(function(){
+		setTimeout(function(){
+			$('.loading').addClass("hidden");
+			$('.loader-logo').addClass("slideOutUp");
+			$('.loader').addClass("slideOutUp");
+			$('body').addClass("body-animated");
+		}, 900);
+	});
 
 	// Header Opacity
 	//===================
@@ -38,33 +38,33 @@ jQuery(document).ready(function( $ ) {
 	// Home Masonry
 	//===================
 
-	// masonry: {
-	// 	selector: "ul.masonry-wrap"
-	// 	var base = this, container = $(base.selector);
-	// 	container.each(function() {
-	// 		var item = $(this);
-	// 		win.load(function() {
-	// 			item.isotope({
-	// 				layoutMode: "packery",
-	// 				itemSelector: ".masonry-item",
-	// 				transitionDuration: "0.5s",
-	// 				columnWidth: 25,
-	// 				resizesContainer: true,
-	// 				masonry: {
-	// 					columnWidth: ".masonry-item"
-	// 				}
-	// 			});
-	// 		});
-	// 	});
-	// }
+	masonry: {
+		selector: "ul.masonry-wrap"
+		var base = this, container = $(base.selector);
+		container.each(function() {
+			var item = $(this);
+			win.load(function() {
+				item.isotope({
+					layoutMode: "packery",
+					itemSelector: ".masonry-item",
+					transitionDuration: "0.5s",
+					columnWidth: 25,
+					resizesContainer: true,
+					masonry: {
+						columnWidth: ".masonry-item"
+					}
+				});
+			});
+		});
+	}
 
 	// Countdown
 	//===================
 
-	// $('.counter').counterUp({
-	// 	delay: 10,
-	// 	time: 1000
-	// });
+	$('.counter').counterUp({
+		delay: 10,
+		time: 1000
+	});
 
 	// Portfolio Overlay effect
 	//===================
@@ -105,11 +105,6 @@ jQuery(document).ready(function( $ ) {
 			}
 		});
 	}.call(this));
-
-    function seeit() {
-    $(".mobile-navigation").toggleClass("visible");
-  // document.getElementById(".mobile-navigation").toggleClass("visible");
-}
 
 	// Dropdown
 	$('.mobile-dropdown').simpleexpand();
