@@ -106,10 +106,6 @@ jQuery(document).ready(function( $ ) {
 		});
 	}.call(this));
 
-    function seeit() {
-    $(".mobile-navigation").toggleClass("visible");
-  // document.getElementById(".mobile-navigation").toggleClass("visible");
-}
 
 	// Dropdown
 	$('.mobile-dropdown').simpleexpand();
@@ -117,40 +113,40 @@ jQuery(document).ready(function( $ ) {
 	// On Scroll Animations
 	//===================
 
-	function onScrollInit( items, trigger ) {
-		items.each( function() {
-			var osElement = $(this),
-				osAnimationClass = osElement.attr('data-os-animation'),
-				osAnimationDelay = osElement.attr('data-os-animation-delay');
+	 function onScrollInit( items, trigger ) {
+	 	items.each( function() {
+	 		var osElement = $(this),
+	 			osAnimationClass = osElement.attr('data-os-animation'),
+	 			osAnimationDelay = osElement.attr('data-os-animation-delay');
 		 
-			osElement.css({
-				'-webkit-animation-delay':  osAnimationDelay,
-				'-moz-animation-delay':     osAnimationDelay,
-				'animation-delay':          osAnimationDelay
-			});
+	 		osElement.css({
+	 			'-webkit-animation-delay':  osAnimationDelay,
+	 			'-moz-animation-delay':     osAnimationDelay,
+	 			'animation-delay':          osAnimationDelay
+	 		});
 		 
-			var osTrigger = ( trigger ) ? trigger : osElement;
+	 		var osTrigger = ( trigger ) ? trigger : osElement;
 		 
-			osTrigger.waypoint(function() {
-				osElement.addClass('animated').addClass(osAnimationClass);
-			},{
-				triggerOnce: true,
-				offset: '90%'
-			});
-		});
-	}
+	 		osTrigger.waypoint(function() {
+	 			osElement.addClass('animated').addClass(osAnimationClass);
+	 		},{
+	 			triggerOnce: true,
+	 			offset: '90%'
+	 		});
+	 	});
+	 }
 
-	setTimeout(function() {
-		onScrollInit( $('.os-animation') );
-		onScrollInit( $('.staggered-animation'), $('.staggered-animation-container') );
-	}, 600);
+ 	setTimeout(function() {
+ 		onScrollInit( $('.os-animation') );
+ 		onScrollInit( $('.staggered-animation'), $('.staggered-animation-container') );
+ 	}, 600);
 	
-	// Back to top button
-	//===================
+	 // Back to top button
+	// ===================
 
-	$('.go-top').on('click', function (event) {
-		event.preventDefault();
-		{$('html, body').velocity('scroll',{duration: 1000, offset:0});}
-	});
+	 $('.go-top').on('click', function (event) {
+	 	event.preventDefault();
+	 	{$('html, body').velocity('scroll',{duration: 1000, offset:0});}
+	 });
 
 });
