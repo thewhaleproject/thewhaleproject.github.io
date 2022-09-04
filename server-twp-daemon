@@ -3,4 +3,6 @@ scriptDir="${0:A:h}"
 cd $scriptDir
 # cd /Users/sa/side-projects/thewhaleproject.github.io
 # localhost:8000
-python3 -m http.server 8000  
+python3 -m http.server 8000 & \
+    fswatch -o $scriptDir | xargs -n1 -I {} \
+    osascript -e 'tell application "Google Chrome" to tell the active tab of its first window to reload'

@@ -14,75 +14,75 @@ Main Theme JS file
 
 jQuery(document).ready(function( $ ) {
 
-	// Loader
-	//===================
+	//// Loader
+	////===================
 
-	$(window).load(function(){
-		setTimeout(function(){
-			$('.loading').addClass("hidden");
-			$('.loader-logo').addClass("slideOutUp");
-			$('.loader').addClass("slideOutUp");
-			$('body').addClass("body-animated");
-		}, 900);
-	});
+	//$(window).load(function(){
+	//	setTimeout(function(){
+	//		$('.loading').addClass("hidden");
+	//		$('.loader-logo').addClass("slideOutUp");
+	//		$('.loader').addClass("slideOutUp");
+	//		$('body').addClass("body-animated");
+	//	}, 900);
+	//});
 
-	// Header Opacity
-	//===================
+	//// Header Opacity
+	////===================
 
-	$(window).on('scroll', function() {
-		var element = $('.header-introduction-small, .header-introduction');
-		var ft = $(this).scrollTop();
-		element.css({ 'opacity' : (1 - ft/400) });
-	});
+	//$(window).on('scroll', function() {
+	//	var element = $('.header-introduction-small, .header-introduction');
+	//	var ft = $(this).scrollTop();
+	//	element.css({ 'opacity' : (1 - ft/400) });
+	//});
 
-	// Home Masonry
-	//===================
+	//// Home Masonry
+	////===================
 
-	masonry: {
-		selector: "ul.masonry-wrap"
-		var base = this, container = $(base.selector);
-		container.each(function() {
-			var item = $(this);
-			win.load(function() {
-				item.isotope({
-					layoutMode: "packery",
-					itemSelector: ".masonry-item",
-					transitionDuration: "0.5s",
-					columnWidth: 25,
-					resizesContainer: true,
-					masonry: {
-						columnWidth: ".masonry-item"
-					}
-				});
-			});
-		});
-	}
+	//masonry: {
+	//	selector: "ul.masonry-wrap"
+	//	var base = this, container = $(base.selector);
+	//	container.each(function() {
+	//		var item = $(this);
+	//		win.load(function() {
+	//			item.isotope({
+	//				layoutMode: "packery",
+	//				itemSelector: ".masonry-item",
+	//				transitionDuration: "0.5s",
+	//				columnWidth: 25,
+	//				resizesContainer: true,
+	//				masonry: {
+	//					columnWidth: ".masonry-item"
+	//				}
+	//			});
+	//		});
+	//	});
+	//}
 
-	// Countdown
-	//===================
+	//// Countdown
+	////===================
 
-	$('.counter').counterUp({
-		delay: 10,
-		time: 1000
-	});
+	//$('.counter').counterUp({
+	//	delay: 10,
+	//	time: 1000
+	//});
 
-	// Portfolio Overlay effect
-	//===================
+	//// Portfolio Overlay effect
+	////===================
 
-	$('ul.masonry-wrap li .masonry-item , ul.grid-wrap li .grid-item , ul.fullscreen-wrap li .grid-item , .parallax-item').hover(
-		function() {
-			TweenMax.to($(this).find('img'), .01, {opacity: '.01', ease: Quart.easeOut});
-			TweenMax.to($(this).find('h2'), .2, {opacity: '1', y: '-50', ease: Quart.easeOut});
-			TweenMax.to($(this).find('p'), .2, {opacity: '1', y: '-30', delay: .25, ease: Quart.easeOut});
-	},
-		function() {
-			TweenMax.to($(this).find('img'), .1, {opacity: '1', delay: .10, ease: Quart.easeOut});
-			TweenMax.to($(this).find('h2'), .2, {opacity: '0', y: '0', delay: .10, ease: Quart.easeOut});
-			TweenMax.to($(this).find('p'), .2, {opacity: '0', y: '0', ease: Quart.easeOut});
-	});
+	//$('ul.masonry-wrap li .masonry-item , ul.grid-wrap li .grid-item , ul.fullscreen-wrap li .grid-item , .parallax-item').hover(
+	//	function() {
+	//		TweenMax.to($(this).find('img'), .01, {opacity: '.01', ease: Quart.easeOut});
+	//		TweenMax.to($(this).find('h2'), .2, {opacity: '1', y: '-50', ease: Quart.easeOut});
+	//		TweenMax.to($(this).find('p'), .2, {opacity: '1', y: '-30', delay: .25, ease: Quart.easeOut});
+	//},
+	//	function() {
+	//		TweenMax.to($(this).find('img'), .1, {opacity: '1', delay: .10, ease: Quart.easeOut});
+	//		TweenMax.to($(this).find('h2'), .2, {opacity: '0', y: '0', delay: .10, ease: Quart.easeOut});
+	//		TweenMax.to($(this).find('p'), .2, {opacity: '0', y: '0', ease: Quart.easeOut});
+	//});
 
-	// Mobile Menu
-	//===================
+	//// Mobile Menu
+	////===================
 
 	$('#navicon').on('click', function () {
 		$(".mobile-navigation").toggleClass("visible");
@@ -90,7 +90,7 @@ jQuery(document).ready(function( $ ) {
 		$(".mobile-navigation").toggleClass("bounce");
 	});
 
-	// Hamburger Icon Animation
+	//// Hamburger Icon Animation
 
 	(function () {
 		var active;
@@ -106,46 +106,46 @@ jQuery(document).ready(function( $ ) {
 		});
 	}.call(this));
 
-	// Dropdown
+	//// Dropdown
 	$('.mobile-dropdown').simpleexpand();
 
-	// On Scroll Animations
-	//===================
+	//// On Scroll Animations
+	////===================
 
-	function onScrollInit( items, trigger ) {
-		items.each( function() {
-			var osElement = $(this),
-				osAnimationClass = osElement.attr('data-os-animation'),
-				osAnimationDelay = osElement.attr('data-os-animation-delay');
+	//function onScrollInit( items, trigger ) {
+	//	items.each( function() {
+	//		var osElement = $(this),
+	//			osAnimationClass = osElement.attr('data-os-animation'),
+	//			osAnimationDelay = osElement.attr('data-os-animation-delay');
 		 
-			osElement.css({
-				'-webkit-animation-delay':  osAnimationDelay,
-				'-moz-animation-delay':     osAnimationDelay,
-				'animation-delay':          osAnimationDelay
-			});
+	//		osElement.css({
+	//			'-webkit-animation-delay':  osAnimationDelay,
+	//			'-moz-animation-delay':     osAnimationDelay,
+	//			'animation-delay':          osAnimationDelay
+	//		});
 		 
-			var osTrigger = ( trigger ) ? trigger : osElement;
+	//		var osTrigger = ( trigger ) ? trigger : osElement;
 		 
-			osTrigger.waypoint(function() {
-				osElement.addClass('animated').addClass(osAnimationClass);
-			},{
-				triggerOnce: true,
-				offset: '90%'
-			});
-		});
-	}
+	//		osTrigger.waypoint(function() {
+	//			osElement.addClass('animated').addClass(osAnimationClass);
+	//		},{
+	//			triggerOnce: true,
+	//			offset: '90%'
+	//		});
+	//	});
+	//}
 
-	setTimeout(function() {
-		onScrollInit( $('.os-animation') );
-		onScrollInit( $('.staggered-animation'), $('.staggered-animation-container') );
-	}, 600);
+	//setTimeout(function() {
+	//	onScrollInit( $('.os-animation') );
+	//	onScrollInit( $('.staggered-animation'), $('.staggered-animation-container') );
+	//}, 600);
 	
-	// Back to top button
-	//===================
+	//// Back to top button
+	////===================
 
-	$('.go-top').on('click', function (event) {
-		event.preventDefault();
-		{$('html, body').velocity('scroll',{duration: 1000, offset:0});}
+	//$('.go-top').on('click', function (event) {
+	//	event.preventDefault();
+	//	{$('html, body').velocity('scroll',{duration: 1000, offset:0});}
 	});
 
 });
