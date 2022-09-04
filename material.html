@@ -1,7 +1,7 @@
 <!DOCTYPE htmlthewhaleproject.github.io lang="en">
 <head>
     <meta charset="UTF-8"/>
-    <metà http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>The Whale Project Demoes</title>
     <meta name="description" content="Music Art Multimedia Project About"/>
@@ -23,23 +23,32 @@
     <link href="/assets/personal/images/favicon/apple-touch-icon-114x114.png" rel="apple-touch-icon-precomposed" sizes="114x114"/>
     <link href="/assets/personal/images/favicon/apple-touch-icon-57x57.png" rel="apple-touch-icon-precomposed" sizes="57x57"/>
     <link href="/assets/personal/css/bootstrap.css" rel="stylesheet" type="text/css"/>
-    <script type="text/javascript" src="https://unpkg.com/browse/youtube-background@1.0.10/jquery.youtube-background.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- https://github.com/stamat/youtube-background -->
     <!-- <link rel="stylesheet" type="text/css" href="/assets/fb/dist/jquery.fancybox.css"> -->
     <!-- <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&autoLogAppEvents=1&version=v3.2&appId=204695036309142"></script> -->
 
-    <!-- https://www.cssscript.com/html5-green-audio-player/ -->
-    <!-- <link rel="stylesheet" href="assets/player/dist/css/green-audio-player.min.css"> -->
-    <!-- <script src="assets/player/dist/js/green-audio-player.min.js"></script> -->
+<!-- <style> -->
+<!-- 			iframe { -->
+<!-- 				transition: opacity 500ms ease-in-out; -->
+<!-- 				transition-delay: 250ms; -->
+<!-- 			} -->
+<!-- </style> -->
+     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/personal/jquery.youtube-background.min.js"></script>
 
 
 
 </head>
-<!-- <body class="parallax mpb" style="background-image: url('https://i.imgur.com/PSAWeU5.gif')"> -->
-<body class="parallax mpb" >
-    <div id="header-js"></div>
 
-    <section class="section text-center oop oop_text gr_link" style="background-color: rgba(0,0,0,0);"> <!-- /*section-black*/  -->
+
+<!-- <body class="parallax mpb" style="background-image: url('https://i.imgur.com/PSAWeU5.gif')"> -->
+<body  class="parallax"  >
+    <div  id="header-js"></div>
+
+    <div id="ytbg" data-ytbg-fade-in="true" data-youtube="https://www.youtube.com/watch?v=eEpEeyqGlxA" data-vbg-poster="https://i.imgur.com/Rcq1V8y.jpg"></div>
+
+    <section class="section text-center oop oop_text gr_link"  > <!-- /*section-black*/  -->
         <div class="container">
             <div class="col-md-12 text-center">
                 <div data-os-animation="fadeIn" data-os-animation-delay="0s" class="section-head os-animation">
@@ -100,18 +109,37 @@
             </div>
         </div>
         </div>
+        <div ></div>
+        
     </section>
-    <script type="text/javascript" src="assets/personal/js/packages.js"></script>
     <!-- <script type="text/javascript"> -->
         <!--     document.addEventListener('DOMContentLoaded', function() { -->
                         <!-- new GreenAudioPlayer('.example'); -->
        <!-- }); -->
             <!-- </script> -->
-    <script type="text/javascript" src="assets/personal/js/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="/assets/personal/js/expromptum.min.js"></script>
+    </div>
+    <!-- <script type="text/javascript" src="/assets/personal/js/expromptum.min.js"></script> -->
+        <script type="text/javascript">
+            jQuery(document).ready(function() {
+      				jQuery('[data-youtube], [data-vbg]').youtube_background();
+            });
+
+            document.querySelector('#ytbg2').addEventListener('video-background-pause', function(){
+              console.log(arguments);
+            });
+        </script>
+
 </body>
 </html>
-<script src="/assets/fb/jquery-3.3.1.min.js"></script>
-<script src="/assets/fb/dist/jquery.fancybox.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+<!-- <script src="assets/fb/jquery-3.3.1.min.js"></script> -->
+
+
+<!-- <script type="text/javascript" src="assets/personal/js/packages.js"></script> -->
+<script type="text/javascript" src="assets/personal/js/jquery.themepunch.tools.min.js"></script>
+
+<script src="assets/fb/dist/jquery.fancybox.min.js"></script>
 <script type="text/javascript" src="assets/loaders.js"></script>
 <script type="text/javascript" src="assets/personal/js/theme.js"></script>
+
+

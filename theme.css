@@ -688,4 +688,5 @@ footer{padding:40px 0 50px}
 .oop{background-color:rgba(0,0,0,0)}
 .oop_text{color:#fdfdfd!important}
 .parallax{height:100%;background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover}
-}
+iframe {transition: opacity 1000ms ease-in-out; transition-delay: 50ms; }
+
