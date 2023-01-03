@@ -8,43 +8,43 @@
 
 
 <url>
-  <loc>http://thewhaleproject.space/</loc>
-  <lastmod>2019-11-02T15:38:54+00:00</lastmod>
+  <loc>https://thewhaleproject.github.io/</loc>
+  <lastmod>2023-01-02T15:38:54+00:00</lastmod>
   <priority>0.5</priority>
 </url>
+<!-- <url> -->
+  <!-- <loc>http://thewhaleproject.space/team.html</loc> -->
+  <!-- <lastmod>2019-11-02T15:41:28+00:00</lastmod> -->
+  <!-- <priority>0.9</priority> -->
+<!-- </url> -->
+<!-- <url> -->
+  <!-- <loc>http://thewhaleproject.space/about.html</loc> -->
+  <!-- <lastmod>2019-11-02T15:41:28+00:00</lastmod> -->
+  <!-- <priority>0.80</priority> -->
+<!-- </url> -->
 <url>
-  <loc>http://thewhaleproject.space/team.html</loc>
-  <lastmod>2019-11-02T15:41:28+00:00</lastmod>
-  <priority>0.9</priority>
-</url>
-<url>
-  <loc>http://thewhaleproject.space/about.html</loc>
-  <lastmod>2019-11-02T15:41:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://thewhaleproject.space/music.html</loc>
-  <lastmod>2019-11-02T15:40:20+00:00</lastmod>
+  <loc>https://thewhaleproject.github.io/music.html</loc>
+  <lastmod>2022-11-02T15:40:20+00:00</lastmod>
   <priority>0.90</priority>
 </url>
+<!-- <url> -->
+  <!-- <loc>http://thewhaleproject.space/art.html</loc> -->
+  <!-- <lastmod>2019-11-02T08:20:19+00:00</lastmod> -->
+  <!-- <priority>0.80</priority> -->
+<!-- </url> -->
 <url>
-  <loc>http://thewhaleproject.space/art.html</loc>
-  <lastmod>2019-11-02T08:20:19+00:00</lastmod>
+  <loc>https://thewhaleproject.github.io/visuals.html</loc>
+  <lastmod>2022-11-02T15:32:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>http://thewhaleproject.space/visuals.html</loc>
-  <lastmod>2019-11-02T15:32:39+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://thewhaleproject.space/contact.html</loc>
-  <lastmod>2019-11-02T15:32:39+00:00</lastmod>
-  <priority>0.7</priority>
-</url>
+<!-- <url> -->
+<!--   <loc>http://thewhaleproject.space/contact.html</loc> -->
+<!--   <lastmod>2019-11-02T15:32:39+00:00</lastmod> -->
+<!--   <priority>0.7</priority> -->
+<!-- </url> -->
 <url>
   <loc>http://thewhaleproject.space/sviatoslavavilov.html</loc>
-  <lastmod>2019-11-01T00:38:39+00:00</lastmod>
+  <lastmod>2022-11-01T00:38:39+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -52,44 +52,39 @@
   <lastmod>2019-11-02T15:32:39+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-<url>
-  <loc>http://thewhaleproject.space/team/alexanderyushkov.html</loc>
-  <lastmod>2019-11-02T15:32:39+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://thewhaleproject.space/damianoascenzi.html</loc>
-  <lastmod>2019-11-02T15:32:39+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://thewhaleproject.space/team/isabelretamoso.html</loc>
-  <lastmod>2019-11-02T15:32:34+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://thewhaleproject.space/team/fabiomorreale.html</loc>
-  <lastmod>2019-11-02T15:32:39+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://thewhaleproject.space/team/anitaclaudiaguadin.html</loc>
-  <lastmod>2019-11-02T15:32:39+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://thewhaleproject.space/team/valentinosinsky.html</loc>
-  <lastmod>2019-11-02T15:32:39+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://thewhaleproject.space/team/vadimpereviazko.html</loc>
-  <lastmod>2019-11-02T15:32:39+00:00</lastmod>
-  <priority>0.64</priority>
-</url><url>
-  <loc>http://thewhaleproject.space/team/valentinosinsky.html</loc>
-  <lastmod>2019-11-02T15:32:39+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+<!-- <url> -->
+<!--   <loc>http://thewhaleproject.space/team/alexanderyushkov.html</loc> -->
+<!--   <lastmod>2019-11-02T15:32:39+00:00</lastmod> -->
+<!--   <priority>0.64</priority> -->
+<!-- </url> -->
+<!-- <url> -->
+<!--   <loc>http://thewhaleproject.space/damianoascenzi.html</loc> -->
+<!--   <lastmod>2019-11-02T15:32:39+00:00</lastmod> -->
+<!--   <priority>0.64</priority> -->
+<!-- </url> -->
+<!-- <url> -->
+<!--   <loc>http://thewhaleproject.space/team/isabelretamoso.html</loc> -->
+<!--   <lastmod>2019-11-02T15:32:34+00:00</lastmod> -->
+<!--   <priority>0.64</priority> -->
+<!-- </url> -->
+<!-- <url> -->
+<!--   <loc>http://thewhaleproject.space/team/fabiomorreale.html</loc> -->
+<!--   <lastmod>2019-11-02T15:32:39+00:00</lastmod> -->
+<!--   <priority>0.64</priority> -->
+<!-- </url> -->
+<!-- <url> -->
+<!--   <loc>http://thewhaleproject.space/team/valentinosinsky.html</loc> -->
+<!--   <lastmod>2019-11-02T15:32:39+00:00</lastmod> -->
+<!--   <priority>0.64</priority> -->
+<!-- </url> -->
+<!-- <url> -->
+<!--   <loc>http://thewhaleproject.space/team/vadimpereviazko.html</loc> -->
+<!--   <lastmod>2019-11-02T15:32:39+00:00</lastmod> -->
+<!--   <priority>0.64</priority> -->
+<!-- </url><url> -->
+<!--   <loc>http://thewhaleproject.space/team/valentinosinsky.html</loc> -->
+<!--   <lastmod>2019-11-02T15:32:39+00:00</lastmod> -->
+<!--   <priority>0.64</priority> -->
+<!-- </url> -->
 
 </urlset>
