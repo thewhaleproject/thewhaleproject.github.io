@@ -33,7 +33,7 @@
   <!-- <priority>0.80</priority> -->
 <!-- </url> -->
 <url>
-  <loc>https://thewhaleproject.github.io/visuals.html</loc>
+  <loc>https://thewhaleproject.github.io/goid.html</loc>
   <lastmod>2022-11-02T15:32:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -47,10 +47,10 @@
   <lastmod>2022-11-01T00:38:39+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-<url>
-  <loc>http://thewhaleproject.space/serhatemrullai.html</loc>
-  <lastmod>2019-11-02T15:32:39+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+<!-- <url> -->
+<!--   <loc>http://thewhaleproject.space/serhatemrullai.html</loc> -->
+<!--   <lastmod>2019-11-02T15:32:39+00:00</lastmod> -->
+<!--   <priority>0.64</priority> -->
+<!-- </url> -->
 
 </urlset>
