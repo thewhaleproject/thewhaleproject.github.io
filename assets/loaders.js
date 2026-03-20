@@ -23,4 +23,3 @@ jQuery(document).ready(function() {
 document.querySelector('#ytbg2').addEventListener('video-background-pause', function(){
     console.log(arguments);
 });
-
